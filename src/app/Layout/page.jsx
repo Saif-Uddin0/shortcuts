@@ -1,6 +1,7 @@
 import React from 'react';
 import Sidebar from './sidebar/page';
 
+
 const Layout = () => {
     return (
         <div>
@@ -8,5 +9,4 @@ const Layout = () => {
         </div>
     );
 };
-
 export default Layout;
