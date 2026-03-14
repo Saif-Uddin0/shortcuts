@@ -33,7 +33,7 @@ export default function Navbar({ title, avatar, name, role }) {
         </Link>
 
         <div className="hidden sm:flex flex-col leading-tight">
-          <span className="text-sm font-medium text-white">
+          <span className="text-sm font-medium text-white dark:black">
             {name}
           </span>
 

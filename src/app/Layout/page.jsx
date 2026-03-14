@@ -4,8 +4,7 @@ import Sidebar from './sidebar/page';
 
 
 const Layout = ({ children }) => {
-    // example auth check (cookie / token)
-    const user = true; // replace with real auth check
+    const user = true; 
 
     if (!user) {
         redirect("/auth/login");
@@ -14,7 +13,7 @@ const Layout = ({ children }) => {
     return (
         <div className="flex min-h-screen bg-[#0B0B0B] text-white">
 
-            {/* Sidebar */}
+            {/* Sidebar */} 
             <aside className="hidden md:flex w-[260px] border-r border-[#2A2A2A]">
                 <Sidebar />
             </aside>
